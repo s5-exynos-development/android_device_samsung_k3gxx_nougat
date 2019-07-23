@@ -8,9 +8,6 @@ $(call inherit-product, device/samsung/k3gxx/device.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Inherit more LineageOS stuff.
-$(call inherit-product, vendor/cm/config/telephony.mk)
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_k3gxx
 PRODUCT_DEVICE := k3gxx
